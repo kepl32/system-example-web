@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+.bar-conap {
+    margin-right: 0;
+    margin-left: 0;
+    border-width: 1px;
+    border-top-left-radius: var(--bs-border-radius);
+    border-top-right-radius: var(--bs-border-radius);
+  }

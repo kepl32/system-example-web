@@ -1,0 +1,18 @@
+<div class="modal-header bg-light">
+    <h4 class="modal-title font-weight-bold">{{titleModal}}</h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="closeModal()"> × </button>
+</div>
+<!-- Modal body -->
+<div class="modal-body" style="max-height: 300px;">
+<form class="row" [formGroup]="frmDepartment">
+    <div class="col-md-12">
+        <label class="form-label">Código</label>
+        <input type="text" class="form-control" formControlName="code">
+    </div>
+    <div class="col-md-12">
+        <label class="form-label">Nombre</label>
+        <input type="text" class="form-control" formControlName="name">
+    </div>
+</form>
+</div>
+<div class="modal-footer"><button type="button" class="btn btn-outline-dark" (click)="saveDepartment()">Guardar</button></div>
